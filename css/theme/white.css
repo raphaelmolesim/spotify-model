@@ -20,13 +20,7 @@ body {
   font-family: "Ampersand", Helvetica, sans-serif;
   font-size: 42px;
   font-weight: normal;
-  color: #222; }
-  
-.reveal .thiskettle {
-    font-family: "DK Framboisier", Helvetica, sans-serif;
-    font-size: 42px;
-    font-weight: normal;
-    color: #222; }  
+  color: #222; } 
 
 ::selection {
   color: #fff;
@@ -48,13 +42,17 @@ body {
  *********************************************/
 .reveal h1 {
   margin: 0 0 20px 0;
-  color: #14991F;
-  font-family: "DK Framboisier", Helvetica, sans-serif;
+  color: #222;
+  font-family: "Ampersand", Helvetica, sans-serif;
   font-weight: normal ; # 600;
   line-height: 1.2;
   letter-spacing: normal;
   text-shadow: none;
   word-wrap: break-word;
+  background-color: #DFFCD7;
+  border-radius: 50px;
+  display: inline;
+  padding: 30px;
 }
 .reveal h2,
 .reveal h3,
@@ -310,6 +308,9 @@ body {
 
 .cover h1 {
   font-size: 80px;  
+  font-family: "DK Framboisier";
+  color: #14991F;
+  background-color: transparent;
 }  
 
 .cover div.circle {
