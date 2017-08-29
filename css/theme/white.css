@@ -44,14 +44,14 @@ body {
   margin: 0 0 20px 0;
   color: #222;
   font-family: "Mala s Handwriting", Helvetica, sans-serif;
-  font-weight: normal ; # 600;
+  font-weight: normal ;
   line-height: 1.2;
   letter-spacing: normal;
   text-shadow: none;
   word-wrap: break-word;
   background-color: #DFFCD7;
   border-radius: 50px;
-  display: inline;
+  display: inline-block;
   padding: 30px;
 }
 .reveal h2,
